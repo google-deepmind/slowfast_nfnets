@@ -13,10 +13,10 @@ benchmark, we also propose a new Slowfast NFNet architecture in the paper.
 Below is a summary of all 12 HARES tasks, with the links to obtaining these
 freely available datasets. Note that the lables of original test sets of
 [Birdsong] and [TUT18] are not publicly availabe - therefore we use the splits
-created by the authors of [Pre-Training Audio Representations with Self-Supervision],
-which is based on the original training dataset. For more details about how to
-assemble these tasks, please refer to Appendix A of the arXiv version of
-[our paper].
+created by the authors of [Pre-Training Audio Representations with Self-Supervision]
+([download link]), which is based on the original training subset. For more
+details about how to assemble these tasks, please refer to Appendix A of the
+arXiv version of [our paper].
 
 | Dataset   |      Task      |  #Samples | #Classes | Domain |
 |----------|:-------------|------:|------:|:------|
@@ -61,10 +61,11 @@ model can be run.
 BibTex for citing the paper:
 
 ```bibtex
-@inproceedings{wang2021towards,
+@inproceedings{wang2022towards,
   title={Towards Learning Universal Audio Representations},
   author={Wang, Luyu and Luc, Pauline and Wu, Yan and Recasens, Adria and Smaira, Lucas and Brock, Andrew and Jaegle, Andrew and Alayrac, Jean-Baptiste and Dieleman, Sander and Carreira, Joao and van den Oord, Aaron},
   booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={4593--4597},
   year={2022},
   organization={IEEE}
 }
@@ -92,3 +93,4 @@ This is not an official Google product.
 [MagnaTagATune]: http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset
 [Pre-Training Audio Representations with Self-Supervision]: https://ieeexplore.ieee.org/abstract/document/9060816
 [our paper]: https://arxiv.org/abs/2111.12124
+[download link]: https://drive.google.com/drive/folders/1VXExUxPkUgcBgCLBd9fX8R-X6BR-g3gu?usp=sharing
